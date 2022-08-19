@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="icon" type="icon" href="img/cdl.png"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>Cyber - Deadlink</title>
+	<style>
+		body {
+
+	        background-color: black;
+	        text-align: center;
+	        color: lime;
+        }
+
+        ul {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        .pageheading{
+            background-color: #333;
+                color: lime;
+        }
+
+        * {
+                box-sizing: border-box;
+        }
+
+        /* Create two equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .column3 {
+            float: left;
+            width: 33.33%;
+            padding: 10px;
+        }
+
+        .column4 {
+        	float: left;
+        	width: 25%;
+        	padding: 10px;
+        }
+
+        .services{
+        	border: 1px solid lime;
+        }
+
+        .srv{
+        	color: white;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        .container {
+            position: relative;
+        }
+
+        .mySlides {
+            display: none;
+        }
+
+        .cursor {
+            cursor: pointer;
+        }
+
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 40%;
+            width: auto;
+            padding: 16px;
+            margin-top: -50px;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        /* Container for image text */
+        .caption-container {
+            text-align: center;
+            background-color: #222;
+            padding: 2px 16px;
+            color: white;
+        }
+
+        /* Six columns side by side */
+        .column6 {
+            float: left;
+            width: 16.66%;
+        }
+
+        /* Add a transparency effect for thumnbail images */
+        .demo {
+            opacity: 0.6;
+        }
+
+        .active,
+        .demo:hover {
+            opacity: 1;
+        }
+
+        .cont{
+        	color: white;
+        	text-align: right;
+        }
+
+
+	</style>    
+</head>
+<body>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="#about">About</a></li>
+		<li><a href="#services">Services</a></li>
+		<li><a href="#portfolio">Portfolio</a></li>
+		<li><a href="#contact">Contact</a></li>
+	</ul>
+	<h1><br/><br/><br/></h1>
+	<h1>CYBER</h1>
+	<button style="border:1px solid white; background-color: lime; color: black; width: 100px; height: 30%;">DeadLink</button>
+	<h1><br/><br/><br/><br/><br/></h1>
+
+	<div id="about" style="background-color:#333;">
+		<div style="padding:20px;"></div>
+		<h1>About Us</h1>
+		<p><br/></p>
+		<div class="row">
+			<div class="column">
+				<p style="text-align: right;">
+					Cyber Deadlink (CDL) is an online software agency which provide variety of different computer services. It includes all the online services regarding software development and design. The services provided by Cyber Deadlink include web development, web design, graphics design, video editing, game development, application development (Android, IOS Applications), as well as cyber security services.
+			        <br/><br/>
+			        The agency is basically a team of professional freelance developers and designers, and you can hire them according to your needs. It was founded in June 2022, by an experienced cyber security enthusiast, Arkhos Tenebris, who is currently the CEO of the company.
+				</p>
+			</div>
+
+			<div class="column">
+				<img src="img/cdl.png" width="300px" style="border:1px solid red;" />
+			</div>
+
+		</div>
+		<div style="padding:20px;"></div>
+		
+	</div>
+	<h1><br/></h1>
+	<div id="services">
+		<h1>Services</h1>
+
+		<div class="row">
+
+			<div class="column3">
+
+				<div class="services">
+					<h3 class="srv">Web Development</h3>
+					<hr/>
+					<p>Website development ($120-500)</p>
+					<hr/>
+					<p>Web design ($90-300)</p>
+					<hr/>
+					<p>E-commerce development ($220-900)</p>
+					<hr/>
+					<p>WordPress development ($100-400)</p>
+
+					
+				</div>
+				
+			</div>
+
+			<div class="column3">
+				<div class="services">
+					<h3 class="srv">Graphics Design</h3>
+					<hr/>
+					<p>Logo design ($70-150)</p>
+					<hr/>
+					<p>Overlay and emotes ($100-250)</p>
+					<hr/>
+					<p>Video editing ($120-300)</p>
+					<hr/>
+					<p>Banner design ($60-150)</p>
+				</div>
+			</div>
+
+			<div class="column3">
+				<div class="services">
+					<h3 class="srv">Application Development</h3>
+					<hr/>
+					<p>Android development ($200-800)</p>
+					<hr/>
+					<p>iOS development ($300-900)</p>
+					<hr/>
+					<p>Game development ($100-400)</p>
+					<hr/>
+					<p>Linux development ($400-1000)</p>
+				</div>
+			</div>
+			
+		</div>
+		<div style="padding:20px;"></div>
+
+
+	</div>
+
+	<div id="members" style="background-color:#333;">
+		<div style="padding:30px;"></div>
+		<h1>Members</h1>
+
+		<div class="row">
+
+			<div class="column4">
+				<img src="img/at.jpg" width="200px" height="200px"/>
+				<p>Arkhos Tenebris (CEO)</p>
+			</div>
+
+			<div class="column4">
+				<img src="img/corp.jpg" width="200px" height="200px"/>
+				<p>Mr. Corporal</p>
+			</div>
+
+			<div class="column4">
+				<img src="img/redh.jpg" width="200px" height="200px"/>
+				<p>Redhead Lotus</p>
+			</div>
+
+			<div class="column4">
+				<img src="img/zed.jpg" width="200px" height="200px"/>
+				<p>Mercury Zed</p>
+			</div>
+			
+		</div>
+		<div style="padding:30px;"></div>
+		
+		
+	</div>
+
+	<div id="portfolio">
+		<div style="padding:20px;"></div>
+		<h1>Portfolio</h1>
+
+		<div class="container">
+            <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <img src="img/herb.jpg" style="width:80%"/>
+            </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+            <img src="img/water9.jpg" style="width:80%"/>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+            <img src="img/vshoot.jpg" style="width:80%"/>
+        </div>
+    
+        <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+            <img src="img/vizd.jpg" style="width:80%"/>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+            <img src="img/sakein (2).jpg" style="width:80%"/>
+        </div>
+    
+        <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+            <img src="img/pulla.jpg" style="width:80%"/>
+        </div>
+    
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <div class="row">
+            <div class="column6">
+                <img class="demo cursor" src="img/herb.jpg" style="width:80%" onclick="currentSlide(1)" alt="Herbabeuna"/>
+            </div>
+            <div class="column6">
+                <img class="demo cursor" src="img/water9.jpg" style="width:80%" onclick="currentSlide(2)" alt="Waxter 9"/>
+            </div>
+            <div class="column6">
+                <img class="demo cursor" src="img/vshoot.jpg" style="width:80%" onclick="currentSlide(3)" alt="VShootz Gaming"/>
+            </div>
+            <div class="column6">
+                <img class="demo cursor" src="img/vizd.jpg" style="width:80%" onclick="currentSlide(4)" alt="Vizuallized"/>
+            </div>
+            <div class="column6">
+                <img class="demo cursor" src="img/sakein (2).jpg" style="width:80%" onclick="currentSlide(5)" alt="Sakein"/>
+            </div>    
+            <div class="column6">
+                <img class="demo cursor" src="img/pulla.jpg" style="width:80%" onclick="currentSlide(6)" alt="Pullamafg"/>
+            </div>
+        </div>
+        <div style="padding:30px;"></div>
+    </div>
+
+    <div id="contact" style="background-color:#333;">
+    	<div style="padding:20px;"></div>
+    	<h1>Contact</h1>
+
+    	<div class="row">
+
+    		<div class="column">
+    			<h3 class="cont">Contact US!</h3>
+    			<p class="cont">
+    				Address: R-177, Rizwan Society, Mosmiyat, Karachi
+    				<br/><br/>
+    				Email: <a href="mailto:webdreamz@yahoo.com">Webdreamz@yahoo.com</a>
+    				<br/><br/>
+    				Phone: +923353231561
+    			</p>
+    		</div>
+
+    		<div class="column"></div>
+    		
+    	</div>
+
+    	
+    </div>
+
+
+
+</div>
+</body>
+</html>      
